@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #4e4e4e;
+  background-color: #e7e7e7;
+  padding: 24px 32px 24px 32px;
+}
+
+.price button {
+  border-radius: 0%;
+  border: 1px solid #030303;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  margin-top: 65px;
+}
+
+.priceTg {
+  margin-top: 24px;
+  width: 250px;
+  height: 360px;
+}
+
+.priceTg button {
+  width: 235px;
+  font-size: 1.25rem;
+}
+
+.priceMid {
+  width: 320px;
+  height: 410px;
+  padding-top: 29px;
+}
+
+.priceMid button {
+  width: 320px;
+  font-size: 1.25rem;
+  background-color: #940eed;
+}
+
+.borderL {
+  border-right: none;
+}
+
+.borderR {
+  border-left: none;
+}
+
+.price > h2,
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+
+.price > p,
+button {
+  font-family: "Roboto Mono", monospace;
+}
